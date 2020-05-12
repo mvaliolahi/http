@@ -1,0 +1,33 @@
+{
+  "name": "mvaliolahi/http",
+  "license": "MIT",
+  "description": "PHP Http Client",
+  "keywords": [
+    "PHP HTTP client",
+    "HTTP Contract",
+    "HTTP Client"
+  ],
+  "homepage": "https://mvaliolahi.ir",
+  "authors": [
+    {
+      "name": "Meysam Valiolahi",
+      "email": "mvaliolahi@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Mvaliolahi\\Http\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php-curl-class/php-curl-class": "^8.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "6.2"
+  }
+}
