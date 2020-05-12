@@ -17,7 +17,6 @@ composer require mvaliolahi/http
 ```
 
 #### 1. Instantiate Client
-To generate document for your awesome API create an instance of http:
 
 ```php
     $client =  new \Mvaliolahi\Http\Curl();
